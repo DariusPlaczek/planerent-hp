@@ -1,0 +1,278 @@
+html, #__next {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+b {
+  @apply text-pr-secondery italic
+}
+
+.planeCard li {
+  padding-left: 24px;
+}
+
+.planeCard li:before {
+  content: '>>';
+  color: #FF302C;
+  font-weight: bold;
+  list-style-type:none;
+  padding-right:4px;
+  margin: 0px 0px 0px -24px;
+}
+
+/*.planeCard {*/
+/*  list-style: none;*/
+/*  list-style-position:outside;*/
+/*}*/
+
+
+.custom-list-style li {
+  padding-left: 24px;
+}
+
+.custom-list-style li:before {
+  content: '>>';
+  color: #FF302C;
+  font-weight: bold;
+  padding-right:8px;
+  margin: 0px 0px 0px -28px;
+}
+
+.custom-list-style {
+  list-style: none;
+  list-style-position:outside;
+}
+
+.top-fiftyone {
+  top: -51px;
+}
+
+
+/************************** BUTTONS ********************/
+
+.active\:bg-grey-900:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39,var(--tw-bg-opacity));
+}
+.hover\:border-4:hover {
+  border-width: 4px;
+}
+.hover\:m-0:hover {
+  margin: 0;
+}
+.focus\:border-4:focus {
+  border-width: 4px;
+}
+.focus\:m-0:focus {
+  margin: 0;
+}
+.active\:border-grey-900:active {
+  --tw-bg-opacity: 1;
+  border-color: rgba(17, 24, 39,var(--tw-bg-opacity));
+}
+.active\:text-grey-900:active {
+  --tw-bg-opacity: 1;
+  color: rgba(17, 24, 39,var(--tw-bg-opacity));
+}
+.active\:border-transparent:active {
+  border-color: transparent;
+}
+
+/************************* ICONS ************************************/
+
+.icons-white {
+  fill: white;
+}
+
+.aboutUs-bg {
+  height: 100%;
+  width: 100%;
+  background: url("/images/abstract-pr-01.svg");
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.charter-bg {
+  height: 75%;
+  width: 100%;
+  background: url("/images/planerent-colog-1980x.webp");
+  background-position: 50% 50%;
+  background-size: cover;
+
+}
+
+.contact-bg {
+  height: 100%;
+  width: 100%;
+  background: url("/images/contact-planerent-background.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: grayscale(100%);
+  opacity: 0.1;
+}
+
+/************************* TAILWINDS CLASS ************************************/
+
+.input-field {
+  @apply appearance-none block sm:w-full w-full text-pr-primary border border-pr-primary bg-pr-primary bg-opacity-20 rounded-3xl rounded-bl-3xl py-3 px-4 leading-tight focus:outline-none focus:bg-opacity-60 focus:border-gray-500 focus:text-pr-sidebar
+}
+
+.textarea-field {
+  @apply appearance-none block sm:w-full w-full text-pr-primary border border-pr-primary bg-pr-primary bg-opacity-20 rounded-tr-3xl rounded-l-3xl py-3 px-4 leading-tight focus:outline-none focus:bg-opacity-60 focus:border-gray-500 focus:text-pr-sidebar
+}
+
+.input-label {
+  @apply uppercase tracking-wide text-white text-xs font-bold mb-2 pl-4
+}
+
+.contact-button {
+  @apply hover:bg-red-700 text-white pt-2 pb-2 uppercase text-xxxs md:text-base w-1/2
+}
+
+.leftsidebar-pivot {
+  @apply lg:block absolute lg:h-2 h-1 lg:w-8 w-6 bg-pr-secondery rounded-full top-2 -right-menu-line shadow-lg
+}
+
+.sections-div {
+  @apply w-full min-h-screen h-full
+}
+
+.rounded-button {
+  @apply 2k:rounded-full rounded-3xl 4k:py-5 2k:py-4 xl:py-2 py-1 uppercase font-normal 2k:text-2xl 4k:text-4xl
+}
+
+.b-red {
+  @apply bg-pr-secondery hover:bg-red-700 text-white
+}
+
+.b-darkblue {
+  @apply bg-pr-sidebar text-white hover:bg-gray-900
+}
+
+.b-gray {
+  @apply bg-pr-primary text-pr-sidebar hover:bg-gray-500 hover:text-white
+}
+
+.b-transparent {
+  @apply hover:bg-white text-white border-2 hover:text-pr-sidebar
+}
+
+.singelServiceCard {
+  @apply relative flex items-center flex-col p-10 w-1/3 xl:h-full h-1/2 bg-pr-sidebar rounded-3xl m-1 shadow-2xl hover:scale-105 transition ease-in-out
+}
+
+.singleServiceCardImage {
+  @apply w-full h-full rounded-3xl opacity-50 absolute top-0 left-0
+}
+
+.singelServiceCard-h2 {
+  @apply z-50 text-white uppercase text-base 2xl:text-2xl 2k:text-3xl 4k:text-5xl pb-6
+}
+
+.singelServiceCard-text {
+  @apply absolute bottom-4 z-50 text-white text-sm 2k:text-2xl 4k:text-4xl p-4 font-thin
+}
+
+.flightschool-text {
+  @apply text-pr-primary lg:text-lg 4k:text-4xl 2k:text-3xl text-base flex-wrap
+}
+
+.ul-flightschool-single-page {
+  @apply list-outside list-circle text-white 4k:text-3xl 2k:text-xl text-base 4k:px-12 2k:px-8 px-3 2k:py-3 py-1
+}
+
+.flightschool-half-separator {
+  @apply xl:w-1/2 w-full bg-pr-sidebar 4k:p-14 2k:p-10 xl:p-6 p-3 rounded-3xl xl:mt-0 mt-1
+}
+
+.mobil {
+  @apply pt-20
+}
+
+.impressum {
+  @apply text-white font-bold not-italic
+}
+
+/************************************ @APPLY END ****************************************/
+
+.hamburger-menu {
+  fill: #FF302C;
+  rx:7px;
+  ry:7px;
+}
+
+.gardien {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(18,27,38));
+  transition: height 0.5s ease-in-out 0s;
+}
+
+.gardien-reverse {
+  background: linear-gradient(rgb(18,27,38), rgba(0, 0, 0, 0));
+  transition: height 0.5s ease-in-out 0s;
+}
+
+.img-before:before {
+  display: block;
+  content: "";
+}
+
+.img-before {
+  /*background: linear-gradient(160deg, rgb(28, 40, 65), rgb(0, 14, 41));*/
+  /*color: rgba(0, 0, 0, 0);*/
+  /*overflow: hidden;*/
+  /*position: relative;*/
+  width: 100%;
+}
+
+.card-information {
+  @apply text-xxs lg:text-xs text-gray-400 uppercase pt-5 text-center
+}
+
+.airplane-quick-button {
+  @apply relative w-36 md:w-48 shadow-2xl
+}
+
+.custom-backdrop-filter {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.active-content {
+  display: block;
+}
+
+.active-tabs  {
+  @apply before:bg-white
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+}
+
+.tab {
+  @apply sm:p-5 px-2 py-5 text-center w-1/2 cursor-pointer box-content relative bg-pr-secondery text-white uppercase m-0.5 text-xs sm:text-base
+}
+
+.tab-text {
+  @apply w-full ml-0 xl:p-10 2k:px-16 px-6 lg:pt-28 pt-5
+}
+
+.content-tab {
+  @apply h-full w-full
+}
+

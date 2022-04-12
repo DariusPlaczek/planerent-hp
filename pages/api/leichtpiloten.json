@@ -1,0 +1,46 @@
+{
+    "_id": "bhLrHxVpU1",
+    "url": "privatpiloten",
+    "title": "LAPL(A) Leichtpiloten-Ausbildung",
+    "declaration": [
+      "Die <b>Leichtluftfahrzeug-Pilotenlizenz (LAPL(A),</b> Flight aircraft pilot licence) ist eine Pilotenlizenz, die zum nichtgewerblichen Fliegen von Leichtflugzeugen berechtigt. Der LAPL ermöglicht gegenüber der höherwertigen Privatpilotenlizenz (PPL) einen einfacheren Erwerb und hat geringere Anforderungen an das medizinische Tauglichkeitszeugnis.",
+      "Entgegen der Privatpilotenlizenz ist der LAPL nicht Konform mit den Vorgaben der Internationale Zivilluftfahrtorganisation (ICAO), deshalb wird ein LAPL außerhalb der EASA Mitgliedstaaten nicht anerkannt und kann daher außerhalb der EASA Mitgliedsstaaten nicht genutzt werden.",
+      "Mit einem LAPL sind Sie berechtigt, als verantwortlicher Luftfahrzeugführer einmotorige Flugzeuge mit Kolbentriebwerk mit einer maximalen Startmasse von 2.000kg und 3 Passagieren zu führen. Der LAPL ist „zunächst“ auf den Sichtflug bei Tageslicht beschränkt und kann im Gegensatz zum PPL(A) nicht direkt auf den Instrumentenflug erweitert werden."
+    ],
+    "training": {
+      "theory": {
+        "firstText": "Die <b>theoretische Ausbildung</b> umfasst 100 Stunden in den Fächern",
+        "list": [
+          "Luftrecht",
+          "Meteorologie",
+          "Allgemeine Luftfahrzeugkenntnisse",
+          "Flugleistung und Flugplanung",
+          "Betriebliche Verfahren",
+          "Navigation",
+          "Aerodynamik",
+          "Menschliches Leistungsvermögen"
+        ],
+        "secondText": "Und wird mit der Theorieprüfung bei der zuständigen Landesluftfahrtbehörde abgeschlossen."
+      },
+      "practical": {
+        "firstText": "Die <b>praktische Ausbildung</b> besteht aus mindestens 30 Flugstunden, davon mindestens:",
+        "list": [
+          "15 Stunden Ausbildung mit Fluglehrer",
+          "6 Stunden Alleinflug mit Flugauftrag, dabei mindestens fünf Stunden Überlandflug"
+        ],
+        "secondText": "Im unmittelbaren Anschluss an die Ausbildung erfolgt die praktische Prüfung."
+      },
+      "conditions": {
+        "list": [
+          "Mindestalter für den Lizenzerwerb 17 Jahre (bei Ausbildungsbeginn 16 Jahre)",
+          "Fliegerärztliches Tauglichkeitszeugnis für LAPL",
+          "Zuverlässigkeitsüberprüfung(ZÜP)",
+          "Auszug aus dem Verkehrszentralregister (KBA)",
+          "Führungszeugnis der Klasse „0“ zur Vorlage bei der Landesluftfahrtbehörde",
+          "Nachweis über einen „Erste Hilfe“ Kurs"
+        ],
+        "text": ""
+      }
+    }
+  }
+

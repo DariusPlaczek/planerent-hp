@@ -1,0 +1,23 @@
+[
+  {
+    "url": "privatpiloten",
+    "title": "PPL(A) Privatpiloten-Ausbildung",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80",
+    "buttonTitle": "Weiter zi PPL(A)",
+    "description": "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens."
+  },
+  {
+    "url": "leichtpiloten",
+    "title": "LAPL(A) Leichtpiloten-Ausbildung",
+    "image": "/images/planerent-flug-800x.webp",
+    "buttonTitle": "Weiter LAPL(A)",
+    "description": "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens."
+  },
+  {
+    "url": "nachtflug",
+    "title": "Nachtflug (NFQ)",
+    "image": "/images/planerent-flugschule-nachtflugx800.webp",
+    "buttonTitle": "Weiter zu NFQ",
+    "description": "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens."
+  }
+]

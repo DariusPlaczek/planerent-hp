@@ -1,0 +1,41 @@
+{
+  "_id": "0srzbjH9gx",
+  "url": "nachflug",
+  "title": "Nachtflug (NFQ)",
+  "declaration": [
+    "Die <b>Nachtflugqualifikation (NFQ,</b> , Night Flying Qualification) berechtigt Luftfahrzeugführer mit einer Pilotenlizenz, die keine Instrumentenflugberechtigung (IR) besitzen, zur Durchführung von Flügen nach Sichtflugregeln bei Nacht. Die Nachtflugausbildung ist eine zusätzliche Berechtigung zu Ihrer bestehenden Lizenz und wird in diese eingetragen.",
+    "Als Nacht gilt die Zeit zwischen dem „bürgerlichem Sonnenuntergang“ (SS+40 Min.) und „bürgerlichem Sonnenaufgang“ (SR-40 Min.)"
+  ],
+  "training": {
+    "theory": {
+      "firstText": "Die <b>theoretische Ausbildung</b> umfasst 5 Stunden und wird vor Beginn der praktischen Ausbildung gemäß FCL.810 in den folgenden Fächern durchgeführt.",
+      "list": [
+        "Luftrecht",
+        "Meteorologie",
+        "Menschliches Leistungsvermögen",
+        "Navigation und Flugplanung",
+        "Notverfahren bei Nacht"
+      ],
+      "secondText": "Eine theoretische Prüfung ist nicht erforderlich."
+    },
+    "practical": {
+      "firstText": "Die <b>praktische Ausbildung</b> umfasst mindestens 5 Stunden Flugausbildung bei Nacht.",
+      "list": [
+        "davon mindestens 3 Stunden Ausbildung mit Fluglehrer",
+        "davon mindestens 1 Stunde Überland-Navigation mit einem Überlandflug von mindestens 50km (27NM)",
+        "Mindestens 5 Starts und Landungen bis zum vollständigen Stillstand im überwachten Alleinflug"
+      ],
+      "secondText": "In der Nachtflugausbildung ist keine Befähigungsüberprüfung durch einen Prüfer (Flight Examiner, FE) vorgesehen, jedoch hat die DTO den zufriedenstellenden Abschluss der Ausbildung zu bestätigen."
+    },
+    "conditions": {
+      "list": [
+        "PPL(A) oder LAPL(A)*",
+        "Gültige Klassenberechtigung (SEP)",
+        "Fliegerärztliches Tauglichkeitszeugnis der Klasse 2",
+        "Zuverlässigkeitsüberprüfung(ZÜP)"
+      ],
+      "text": "*Sofern ein LAPL(A) Lizenzinhaber die Nachtflugausbildung anstrebt ist vor Beginn der eigentlichen NFQ Ausbildung aus dem PPL(A) Ausbildungsprogramm (Grundlagen des Instrumentenfluges) nachzuholen."
+    }
+  }
+}
+
